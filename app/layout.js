@@ -9,11 +9,19 @@ const poppins = Poppins({
 export const metadata = {
   title: 'Agatha App',
   description: 'Landing page Agatha',
+  icons: {
+    icon: '/Agatha_Icon.png',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/png" sizes="32x32" href="/Agatha_Icon.png" />
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Agatha_Icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/Agatha_Icon.png" />
+      </head>
       <body className={`${poppins.className} min-h-screen bg-white`}>
         <main>{children}</main>
       </body>
