@@ -26,7 +26,7 @@ const HeroSection = () => {
             Agatha, Solusi cerdas dengan respon yang cepat!
           </h1>
           <p className="text-base md:text-lg text-gray-700 mt-4 mb-6">
-            Solusi cerdas yang siap menggantikan customer care dengan respons cepat memberikan pengalaman yang lebih baik.
+          Solusi cerdas yang menghadirkan efisiensi tinggi dalam pelayanan customer care, dengan respons cepat dan akurat, memastikan pengalaman pelanggan yang lebih optimal dan hemat waktu.
           </p>
           {/* <button className="mt-6 bg-purple-600 text-white py-2 px-4 rounded-xl text-sm md:text-base">
             Try It For Free
@@ -53,7 +53,7 @@ const AIChat = () => {
         <div className="absolute w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-[#C00DC8] rounded-full blur-[300px] md:blur-[500px] opacity-80 z-[-1] left-[-50px] md:left-[-100px]"></div>
         <div className="w-[250px] md:w-[300px] z-0">
           <video autoPlay loop muted className='rounded-3xl w-full h-full'>
-            <source src="/agatha-chatbot-2.mp4" type="video/mp4" />
+            <source src="/chat_bot_revisi.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -61,12 +61,12 @@ const AIChat = () => {
       <div className="text-center md:text-right md:ml-8" data-aos="fade-right">
         <p className="text-[#9B03B8] text-4xl md:text-5xl lg:text-7xl font-bold mb-8 md:mb-20">AI Chat</p>
         <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-10">
-          Optimalkan layanan rumah sakit <br className="hidden md:inline" /> anda dengan Voice Agatha AI!
+          Optimalkan layanan rumah sakit <br className="hidden md:inline" /> anda dengan WA Agatha
         </h2>
         <p className="text-base md:text-lg mb-6 md:mb-10">
-          Dengan Reminder AI Agatha melalui WhatsApp, Pasien akan <br className="hidden md:inline" /> menerima pengingat otomatis janji temu mereka. Tingkatkan <br className="hidden md:inline" /> efisiensi jadwal anda dengan solusi pengingat cerdas kami!
+        Melalui WhatsApp, AGATHA memudahkan pasien rumah sakit <br className="hidden md:inline" /> untuk bertanya seputar administrasi, jadwal kontrol, BPJS, dan layanan kesehatan lainnya <br className="hidden md:inline" /> secara real-time. Dengan integrasi data yang aman dan akses mudah melalui platform WA <br className="hidden md:inline" /> AGATHA menawarkan solusi efisien yang meningkatkan kenyamanan pasien serta <br className="hidden md:inline" /> mengurangi beban customer care manual.
         </p>
-        <img src="/table.svg" alt="Table" className="w-full max-w-[400px] h-auto mb-6 mx-auto md:ml-auto" />
+        <img src="/table_new.png" alt="Table" className="w-full max-w-[400px] h-auto mb-6 mx-auto md:ml-auto" />
       </div>
     </div>
   );
@@ -79,7 +79,7 @@ const AIVoice = () => {
         <p className="text-[#9B03B8] text-4xl md:text-5xl lg:text-7xl font-bold mb-6 md:mb-10">Voice</p>
         <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-10">Jangan Biarkan Pasien Melewatkan<br className="hidden md:inline" /> Jadwal Kontrol Mereka!</h2>
         <p className="text-base md:text-lg mb-6 md:mb-10">Dengan Reminder AI Agatha melalui WhatsApp, Pasien akan <br className="hidden md:inline" /> menerima pengingat otomatis janji temu mereka. Tingkatkan <br className="hidden md:inline" /> efisiensi jadwal anda dengan solusi pengingat cerdas kami!</p>
-        <img src="/table.svg" alt="Table" className="w-full max-w-[400px] h-auto mb-6 mx-auto md:mx-0" />
+        <img src="/table_new.png" alt="Table" className="w-full max-w-[400px] h-auto mb-6 mx-auto md:mx-0" />
       </div>
       <div className="absolute w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-[#C00DC8] rounded-full blur-[300px] md:blur-[500px] opacity-80 z-[-1] right-[-50px] md:right-[-100px]"></div>
       <div className="relative flex-1 flex items-center justify-center mb-8 md:mb-0">
@@ -113,7 +113,7 @@ const AIReminder = () => {
         <p className="text-base md:text-lg mb-6 md:mb-10">
           Dengan Reminder AI Agatha melalui WhatsApp, Pasien akan <br className="hidden md:inline" /> menerima pengingat otomatis janji temu mereka. Tingkatkan <br className="hidden md:inline" /> efisiensi jadwal anda dengan solusi pengingat cerdas kami!
         </p>
-        <img src="/table.svg" alt="Table" className="w-full max-w-[400px] h-auto mb-6 mx-auto md:ml-auto" />
+        <img src="/table_new.png" alt="Table" className="w-full max-w-[400px] h-auto mb-6 mx-auto md:ml-auto" />
       </div>
     </div>
   );
