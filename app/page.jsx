@@ -34,7 +34,7 @@ const HeroSection = () => {
           </button> */}
         </div>
         <div className="relative flex-1 flex items-center justify-center mt-8 md:mt-0">
-          <div className="absolute w-full md:w-[1000px] z-0">
+          <div className="absolute w-full md:w-[100vw] z-0">
             <img src="/circle.svg" alt="Lingkaran" className="w-full h-full object-contain" />
           </div>
           <div className="relative w-[1189px] md:w-[500px] h-[300px] md:h-[700px] z-10">
