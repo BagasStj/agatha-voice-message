@@ -78,7 +78,7 @@ const AIVoice = () => {
       <div className="text-center md:text-left mb-8 md:mb-0 md:mr-8">
         <p className="text-[#9B03B8] text-4xl md:text-5xl lg:text-7xl font-bold mb-6 md:mb-10">Voice</p>
         <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-10">Jangan Biarkan Pasien Melewatkan<br className="hidden md:inline" /> Jadwal Kontrol Mereka!</h2>
-        <p className="text-base md:text-lg mb-6 md:mb-10">Dengan Reminder AI Agatha melalui WhatsApp, Pasien akan <br className="hidden md:inline" /> menerima pengingat otomatis janji temu mereka. Tingkatkan <br className="hidden md:inline" /> efisiensi jadwal anda dengan solusi pengingat cerdas kami!</p>
+        <p className="text-base md:text-lg mb-6 md:mb-10">Dengan AI Agatha Voice,<br className="hidden md:inline" /> Solusi cerdas yang menghadirkan efisiensi tinggi dalam pelayanan customer care,<br className="hidden md:inline" /> dengan respons cepat dan akurat, memastikan pengalaman pelanggan <br className="hidden md:inline" />yang lebih optimal dan hemat waktu.</p>
         <img src="/table_new.png" alt="Table" className="w-full max-w-[400px] h-auto mb-6 mx-auto md:mx-0" />
       </div>
       <div className="absolute w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-[#C00DC8] rounded-full blur-[300px] md:blur-[500px] opacity-80 z-[-1] right-[-50px] md:right-[-100px]"></div>
