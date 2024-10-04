@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Agatha_Icon.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/Agatha_Icon.png" />
       </head>
-      <body className={`${poppins.className} min-h-screen bg-white`}>
+      <body className={`${poppins.className} min-h-screen  bg-[#0A0313]`}>
         <main>{children}</main>
       </body>
     </html>
