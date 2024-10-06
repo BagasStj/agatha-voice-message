@@ -331,7 +331,7 @@ const Home = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 justify-between w-full h-full md:space-y-0 md:space-x-8'>
           
               <div className='flex justify-center md:justify-end w-full h-full items-center mt-8 md:mt-0'>
-                <div className="relative md:h-[65vh]">
+                <div className="relative md:h-[65vh] mb-[14%]">
                   <div className="relative z-10 h-full md:scale-[1]">
                     <img src="/svg/agatha-voice.svg" alt="Agatha Voice" className='w-full h-full object-contain' />
                   </div>
@@ -360,7 +360,7 @@ const Home = () => {
               <div className='text-center font-bold text-2xl md:text-[4vh] md:h-[15vh] md:w-1/2 mb-11 leading-normal' style={{ fontFamily: 'inter' }}>Pengingat otomatis, selalu tepat waktu bersama AGATHA reminder!</div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 justify-between w-full h-full md:space-y-0 md:space-x-8'>
-              <div className="h-[500px] md:h-[400px]">
+              <div className="h-[500px] md:h-[400px] mb-[14%]">
                 <ReminderComparisonTable />
               </div>
               <div className='flex justify-center md:justify-end w-full h-full items-center mt-8 md:mt-0'>
